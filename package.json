@@ -1,0 +1,35 @@
+{
+  "name": "lambda-labs",
+  "description": "Node module for Lambda Labs Face Recognition API Beta.",
+  "tags": [
+    "client"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Adam Magaluk",
+    "email": "AdamMagaluk@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdamMagaluk/lambda-labs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdamMagaluk/lambda-labs/issues"
+  },
+  "engines": [
+    "node >= 0.6.6"
+  ],
+  "dependencies": {
+    "request": ">=2.0.0",
+    "async": ">=0.1.9"
+  },
+  "devDependencies": {
+    "mocha": ">=0.8.1",
+    "colors": ">=0.6.0"
+  },
+
+  "scripts": {
+    "test": "mocha -t 10s"
+  },
+  "main" : "./lib/lambda-labs"
+}
