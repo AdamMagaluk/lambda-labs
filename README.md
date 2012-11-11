@@ -5,6 +5,10 @@ Node module for Lambda Labs Face Recognition API βeta
 
 Lambda Labs Api - http://api.lambdal.com/?ref=homepage
 
+### Supports
+* Detecting faces in local images
+* Detecting faces on web urls.
+
 
 Installation
 ------------
@@ -13,7 +17,7 @@ Installation
 Usage
 -----
 
-*Detect Faces on Images*
+###Detect Faces on Images
 ```javascript
 
 var Detect = require('lambda-labs').Detect;
