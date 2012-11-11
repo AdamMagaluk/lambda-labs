@@ -4,6 +4,7 @@ lambda-labs
 Node module for Lambda Labs Face Recognition API βeta
 
 Lambda Labs Api - http://api.lambdal.com/?ref=homepage
+![Lambda Labs](http://lambdal.com/images/lambda-labs-logo-25x25.png)
 
 ### Supports
 * Detecting faces in local images
