@@ -19,11 +19,12 @@ describe('Detect', function(){
 
   })
 
-  describe('#detectFaces()', function(){
+  describe('#detectFaces()', function(done){
     it('should not work, local file does not exist.', function(){
       var detect = new Detect(options);
       detect.detectFaces('nonexistantimage.jpg',function(err,ret){
         assert.equal(err.errno,34)
+        done();
       });
     })
 
