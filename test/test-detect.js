@@ -47,15 +47,6 @@ describe('Detect', function(){
       });
     })
 
-/*
-    it('Should fail, testing on non-existant web url, x', function(){
-      var detect = new Detect(options);
-      detect.detectFaces('http://test.example.com/test.jpg',function(err,ret){
-        assert.notEqual(err,null)
-      });
-    })
-*/
-
 
   })
 
